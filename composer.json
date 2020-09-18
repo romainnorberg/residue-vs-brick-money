@@ -1,0 +1,16 @@
+{
+    "name": "romainnorberg/residue-vs-brick-money",
+    "authors": [
+        {
+            "name": "Norberg",
+            "email": "romainnorberg@gmail.com"
+        }
+    ],
+    "require": {
+        "brick/money": "^0.5.0",
+        "symfony/console": "^5.1",
+        "psr/log": "^1.1",
+        "romainnorberg/residue": "v0.2-alpha@alpha"
+    },
+    "minimum-stability": "alpha"
+}
