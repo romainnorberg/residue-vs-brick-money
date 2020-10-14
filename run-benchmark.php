@@ -104,7 +104,7 @@ $io->table(
 
 $benchmark->start();
 for ($i = 0; $i < ITERATOR; ++$i) {
-    $residue = (new Residue(100))->divideBy(3); // 33.33, 33.33, 33.34
+    $residue = Residue::create(100)->divideBy(3); // 33.33, 33.33, 33.34
 
     foreach ($residue->split() as $part) {
         $partValue = $part;
@@ -162,7 +162,7 @@ $io->table(
 
 $benchmark->start();
 for ($i = 0; $i < ITERATOR; ++$i) {
-    $residue = (new Residue(100))
+    $residue = Residue::create(100)
         ->divideBy(3)
         ->step(0.05); // 33.35, 33.35, 33.30
 
