@@ -79,7 +79,7 @@ $io->section('Instantiation');
 $io->table(
     [
         'Package',
-        'Execution time',
+        'Execution time (sec)',
         'Memory used',
         'Peak memory used',
     ],
@@ -104,7 +104,7 @@ $io->table(
 
 $benchmark->start();
 for ($i = 0; $i < ITERATOR; ++$i) {
-    $residue = Residue::create(100)->divideBy(3); // 33.33, 33.33, 33.34
+    $residue = Residue::create(100)->divideBy(3); // 33.34, 33.33, 33.33
 
     foreach ($residue->split() as $part) {
         $partValue = $part;
@@ -137,7 +137,7 @@ $io->block('e.g. 100/3 = [33.34, 33.33, 33.33]');
 $io->table(
     [
         'Package',
-        'Execution time',
+        'Execution time (sec)',
         'Memory used',
         'Peak memory used',
     ],
@@ -198,7 +198,7 @@ $io->block('e.g. 100/3 (with 0.05 step) = [33.35, 33.35, 33.30]');
 $io->table(
     [
         'Package',
-        'Execution time',
+        'Execution time (sec)',
         'Memory used',
         'Peak memory used',
     ],

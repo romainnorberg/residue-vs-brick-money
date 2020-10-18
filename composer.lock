@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56123fd9a9a280d53c189e468bbc1816",
+    "content-hash": "218e6c99045472cdada1c79964a353a7",
     "packages": [
         {
             "name": "brick/math",
@@ -208,16 +208,16 @@
         },
         {
             "name": "romainnorberg/residue",
-            "version": "v0.3.1",
+            "version": "v0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/romainnorberg/residue.git",
-                "reference": "c5cacd0517522803cc2d07485caee99f465270fd"
+                "reference": "51dde47f7277b617a893cac7f2b85b683dd17e46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/romainnorberg/residue/zipball/c5cacd0517522803cc2d07485caee99f465270fd",
-                "reference": "c5cacd0517522803cc2d07485caee99f465270fd",
+                "url": "https://api.github.com/repos/romainnorberg/residue/zipball/51dde47f7277b617a893cac7f2b85b683dd17e46",
+                "reference": "51dde47f7277b617a893cac7f2b85b683dd17e46",
                 "shasum": ""
             },
             "require": {
@@ -242,7 +242,14 @@
             "authors": [
                 {
                     "name": "Romain Norberg",
-                    "email": "romainnorberg@gmail.com"
+                    "email": "romainnorberg@gmail.com",
+                    "role": "Maintainer, Owner, Developer"
+                },
+                {
+                    "name": "Mocking Magician",
+                    "email": "moreau.marc.web@gmail.com",
+                    "homepage": "https://github.com/MockingMagician",
+                    "role": "Developer"
                 }
             ],
             "description": "Divide a float into several parts, with distribution of any remainder",
@@ -257,20 +264,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-14T04:36:54+00:00"
+            "time": "2020-10-18T13:36:04+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v5.2.0-BETA1",
+            "version": "v5.2.0-BETA2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "9df6bfc5afd969d972f005a068576e48a0fccec0"
+                "reference": "5d5ff78dc06109b534866efe6918973581ca68b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/9df6bfc5afd969d972f005a068576e48a0fccec0",
-                "reference": "9df6bfc5afd969d972f005a068576e48a0fccec0",
+                "url": "https://api.github.com/repos/symfony/console/zipball/5d5ff78dc06109b534866efe6918973581ca68b2",
+                "reference": "5d5ff78dc06109b534866efe6918973581ca68b2",
                 "shasum": ""
             },
             "require": {
@@ -308,9 +315,7 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "5.2-dev"
-                }
+                "branch-version": "5.2"
             },
             "autoload": {
                 "psr-4": {
@@ -356,7 +361,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-03T14:00:31+00:00"
+            "time": "2020-10-13T13:22:54+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -904,16 +909,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.2.0-BETA1",
+            "version": "v5.2.0-BETA2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "4dfc0b23e58ae0060af6bf72af6e80c557848386"
+                "reference": "c2979f2f05388e0b7d2ca65d3ff5033779fc3215"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/4dfc0b23e58ae0060af6bf72af6e80c557848386",
-                "reference": "4dfc0b23e58ae0060af6bf72af6e80c557848386",
+                "url": "https://api.github.com/repos/symfony/string/zipball/c2979f2f05388e0b7d2ca65d3ff5033779fc3215",
+                "reference": "c2979f2f05388e0b7d2ca65d3ff5033779fc3215",
                 "shasum": ""
             },
             "require": {
@@ -932,9 +937,7 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "5.2-dev"
-                }
+                "branch-version": "5.2"
             },
             "autoload": {
                 "psr-4": {
@@ -985,7 +988,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-24T09:57:23+00:00"
+            "time": "2020-10-13T13:22:54+00:00"
         }
     ],
     "packages-dev": [],
